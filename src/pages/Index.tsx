@@ -23,7 +23,7 @@ const Index = () => {
     });
 
     const sessionTime = useRef({
-        time: 5 * 60000
+        time: 10 * 60000
     })
 
     const destroySession = async () => {
